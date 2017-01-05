@@ -12,6 +12,8 @@
 		2CD6C88D1E1CFE3A00D395C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6C88B1E1CFE3A00D395C6 /* Main.storyboard */; };
 		2CD6C88F1E1CFE3A00D395C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6C88E1E1CFE3A00D395C6 /* Assets.xcassets */; };
 		2CD6C8921E1CFE3A00D395C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6C8901E1CFE3A00D395C6 /* LaunchScreen.storyboard */; };
+		2CD6C89B1E1CFE7C00D395C6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD6C89A1E1CFE7C00D395C6 /* Accounts.framework */; };
+		2CD6C89D1E1CFE8300D395C6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD6C89C1E1CFE8300D395C6 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2CD6C88E1E1CFE3A00D395C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CD6C8911E1CFE3A00D395C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CD6C8931E1CFE3B00D395C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD6C89A1E1CFE7C00D395C6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		2CD6C89C1E1CFE8300D395C6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD6C89D1E1CFE8300D395C6 /* Social.framework in Frameworks */,
+				2CD6C89B1E1CFE7C00D395C6 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,7 @@
 			children = (
 				2CD6C8861E1CFE3A00D395C6 /* TwitterLoginSample */,
 				2CD6C8851E1CFE3A00D395C6 /* Products */,
+				2CD6C8991E1CFE7C00D395C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +69,15 @@
 				2CD6C8931E1CFE3B00D395C6 /* Info.plist */,
 			);
 			path = TwitterLoginSample;
+			sourceTree = "<group>";
+		};
+		2CD6C8991E1CFE7C00D395C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD6C89C1E1CFE8300D395C6 /* Social.framework */,
+				2CD6C89A1E1CFE7C00D395C6 /* Accounts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
